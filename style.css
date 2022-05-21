@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300&display=swap');
+
+/* color: #32b2a9 */
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: #333333;
+
+
+}
+
+main {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    margin: auto;
+    width: 940px !important;
+
+}
+
+
+/* ENCABEZADO */
+
+
+
+
+.header-gris {
+    background-color: #333333;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.img-banner {
+    z-index: 1000;
+    position: relative;
+    height: 140px;
+    width: 900px;
+}
+
+.sahara-responsive {
+    z-index: 1000;
+    height: 120px;
+    position: relative;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+    margin-top: 40px;
+    position: relative;
+}
+
+
+/* NAVEGADOR */
+
+
+
+.navbar {
+    background-color: #32b2a9 !important;
+
+
+}
+
+.menu-navegador {
+
+    margin-right: 12.5rem;
+
+    background-color: #32b2a9 !important;
+
+}
+
+
+
+.nav-item a {
+    font-size: 16px;
+    cursor: pointer !important;
+
+    /* border-right: 1px solid white; */
+
+}
+
+
+.nav-item a:hover {
+    color: rgb(204, 204, 52) !important;
+
+}
+
+
+
+/* IMAGEN APAISADADA PRINCIPAL */
+
+.imagen-principal img {
+    /* width: 90% !important; */
+    height: auto !important;
+}
+
+.imagen-principal h5 {
+    font-size: 68px;
+    font-weight: 700;
+}
+
+
+.imagen-principal p {
+    font-size: 30px;
+}
+
+
+/* ABOUT */
+
+
+.texto-about {
+    margin-top: 10px;
+}
+
+
+.texto-about h2 {
+    font-size: 48px;
+    margin-top: 20px;
+    letter-spacing: -.005em;
+    line-height: 1.07143;
+    font-weight: 600;
+}
+
+.texto-about p {
+    font-size: 18px;
+    line-height: 40px;
+    padding-bottom: 20px;
+
+}
+
+#exploreSahara h2 {
+    font-size: 48px;
+    letter-spacing: -.005em;
+    font-weight: 600;
+}
+
+
+/* TARJETAS */
+
+
+.cards h2 {
+    line-height: 40px;
+    font-size: 30px;
+}
+
+
+.card {
+    border: none !important;
+    background-color: transparent;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.cards p {
+
+    font-size: 12px !important;
+    font-family: Segoe, "Segoe UI", Calibri, Candara, Optima, Arial, sans-serif;
+
+}
+
+.card img {
+    margin-top: 10px !important;
+    width: 140px;
+    height: 140px;
+    display: inline-block;
+    justify-content: center;
+
+}
+
+.titulo-contactos {
+
+    font-size: 48px;
+    letter-spacing: -.005em;
+    font-weight: 600;
+}
+
+iframe {
+    width: 100% !important;
+    height: 40vh !important;
+}
+
+.direcciones h6 {
+    line-height: 30px !important;
+
+
+}
+
+input {
+    border-radius: 0 !important;
+    background-color: #f5f5f5 !important;
+
+}
+
+
+textarea {
+    resize: none;
+    border-radius: 0 !important;
+    background-color: #f5f5f5 !important;
+
+
+}
+.green {
+    width: 100%;
+    height: 60px;
+    background-color: #32b2a9 !important;
+    /* box-shadow: 0px 0px 0px 3px rgba(0, 0, 0, 0.2) !important; */
+}
+
+footer {
+
+    /* margin-top: 4rem; */
+    display: flex;
+    justify-content: space-around !important;
+    font-weight: 100;
+
+}
+
+footer h6 {
+font-size: 11px !important;
+}
+
+footer .container {
+    /* width: 940px !important; */
+    padding: 0 !important;
+}
+
+footer .logo {
+    width: 50px;
+    height: 50px;
+    /* margin-top: 50px; */
+}
+
+footer h6:first-of-type {
+    margin-top: 40px;
+    margin-left: 5px;
+}
+
+
+footer img:hover {
+    filter: brightness(50%);
+    cursor: pointer;
+}
+
+.fiscal {
+    width: 40px;
+    height: 50px;
+}
+
+.quality {
+    margin-top: 40px
+}
+
+.quality img {
+    margin-right: 0px !important
+}
+
+
+
+
+
+.iconos {
+    margin-right: 10px;
+}
+
+@media screen and (max-width:576px) {
+
+    main {
+        width: 100% !important;
+    }
+
+    .imagen-principal img {
+        width: 90% !important;
+    }
+
+    .texto-about {
+        padding: 40px !important;
+
+    }
+
+    .texto-about h5 {
+        font-size: 40px;
+    }
+
+    .video {
+        padding: 40px !important;
+    }
+
+    #exploreSahara {
+        padding: 10px !important;
+
+    }
+
+    #exploreSahara h2 {
+        font-size: 32px !important;
+
+
+    }
+
+    .formulario {
+        padding: 10px;
+        margin-top: -40px !important;
+    }
+}
+
+
+
+
+@media screen and (min-width:1024px) {
+
+    .sahara-responsive {
+        display: none;
+    }
+
+    .validacionCss, .validacionHtml {
+        width: 80px;
+        height: 30px;
+    
+    }
+    
+    .quality img{
+        margin-right: 10px;
+        height: 90px;
+    }
+    
+
+    footer .container {
+        width: 940px !important;
+    }
+
+    footer .pad {
+        padding-right: 20px !important;
+        width: 313px !important;
+    }
+
+
+}
+
+@media screen and (max-width:1024px) {
+    .img-banner {
+        display: none;
+
+    }
+
+    footer .pad {
+        padding: 20px;
+
+    }
+
+}
