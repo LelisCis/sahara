@@ -10,6 +10,10 @@
 
   <!-- Font Awesome -->
   <link
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+  rel="stylesheet"
+/>
+  <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
   />
@@ -20,14 +24,6 @@
   />
   <!-- MDB -->
   <link rel="stylesheet" href="css/mdb.min.css" />
- 
- 
- 
- 
- 
- 
-
-
 
  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
@@ -37,6 +33,16 @@
 </head>
 
 <body>
+
+  <div id="div-totop" class="cmn-divfloat">
+    <a href="#span-top" class="btn btn-flotante cmn-btncircle" style="color: white">
+        <i class="fa fa-arrow-up"></i>
+    </a>
+</div>
+
+
+
+
 
 
   <section class="encabezado">
@@ -82,11 +88,11 @@
   <main class="container">
 
     <section class="imagen-principal">
+     
       <div class="d-flex justify-content-center">
         <img src="img\inicio2.jpg" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-block mt-5">
         </div>
-      </div>
+   
     </section>
 
     <section class="about mt-5 row row-cols-1" id="about">
@@ -369,51 +375,51 @@
 
       <div class="formulario">
 
-        <form class="mb-5">
+        <form class="mb-5" id="contact_form" action="#" >
 
           <div class="col-lg-6 col-sm-10 mb-3">
             <label for="" class="form-label">NAME</label>
-            <input type="text" class="form-control" id="name" aria-describedby="name">
+            <input type="text" class="form-control" id="name" aria-describedby="name" name="name" required value="">
           </div>
 
           <div class="col-lg-6 col-sm-10 mb-3">
             <label for="" class="form-label">EMAIL ADDRESS</label>
-            <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+            <input type="email" class="form-control" id="email" aria-describedby="emailHelp" name="email" required value="">
           </div>
 
 
           <div class="col-lg-6 col-sm-10  mb-3">
             <label for="" class="form-label">COMPANY</label>
-            <input type="text" class="form-control" id="company" aria-describedby="company">
+            <input type="text" class="form-control" id="company" name="company" aria-describedby="company" required value="">
           </div>
 
           <div class="col-lg-6 col-sm-10 mb-3">
             <label for="" class="form-label">ADDRESS</label>
-            <input type="text" class="form-control" id="address" aria-describedby="address">
+            <input type="text" class="form-control" id="address" name="address" aria-describedby="address" required value="">
           </div>
 
           <div class="col-lg-6 col-sm-10 mb-3">
             <label for="" class="form-label">CITY/STATE</label>
-            <input type="text" class="form-control" id="city" aria-describedby="city">
+            <input type="text" class="form-control" id="city" name="city" aria-describedby="city" required value="">
           </div>
 
           <div class="col-lg-6 col-sm-10 mb-3">
             <label for="" class="form-label">COUNTRY</label>
-            <input type="text" class="form-control" id="country" aria-describedby="country">
+            <input type="text" class="form-control" id="country" name="country" aria-describedby="country" required value="">
           </div>
 
           <div class="col-lg-6 col-sm-10 mb-3">
             <label for="" class="form-label">PHONE</label>
-            <input type="text" class="form-control" id="phone" aria-describedby="phone">
+            <input type="text" class="form-control" id="phone" name="phone" aria-describedby="phone" required value="">
           </div>
 
           <div class="col-lg-6 col-sm-10 mb-3">
-            <label for="floatingTextarea" class="mb-2">MESSAGE</label>
-            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
-          </div>
+            <label for="" class="mb-2">MESSAGE</label>
+            <textarea class="form-control" placeholder="Leave a comment here" id="message" maxlength="300" name="comments" required value=""></textarea>
+            </div>
 
           <div class="col-lg-6 col-sm-10 mb-3">
-            <button type="submit" class="btn btn-primary">SUBMIT</button>
+            <button type="submit" class="btn btn-primary" name="submitted" id="submitted">SUBMIT</button>
           </div>
 
         </form>
@@ -502,9 +508,11 @@
     crossorigin="anonymous"></script>
 
  <!-- MDB -->
- <script type="text/javascript" src="js/mdb.min.js"></script>
+ <script type="text/javascript" src="js\mdb.min.js"></script>
  <!-- Custom scripts -->
- <script type="text/javascript"></script>
+ <script type="text/javascript" src="js\appi.js"></script>
+ <script src="js\form.js"></script>
+
     
 </body>
 
