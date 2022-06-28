@@ -152,23 +152,18 @@ main {
 
 #sahara h2 {
     font-size: 48px;
-    margin-top: 20px;
+    /* margin-top: 20px; */
     letter-spacing: -.005em;
     line-height: 1.07143;
     font-weight: 600;
 }
 
 #sahara p {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 40px;
     padding-bottom: 20px;
 
 }
-
-
-
-
-
 
 #exploreSahara h2 {
     font-size: 48px;
@@ -325,6 +320,53 @@ footer img:hover {
 .iconos {
     margin-right: 10px;
 }
+
+
+
+@media screen and (max-width:787px) {
+
+    #sahara {
+        margin: 10px;
+    }
+
+ 
+    #sahara h2 {
+        margin-left: 40px;
+        font-size: 24px;
+
+    }
+
+    #sahara p {
+        font-size: 1em !important;
+        line-height: 20px !important;
+        margin-left: 40px;
+
+}
+.texto-about h2 {
+    font-size: 24px;
+     line-height: 1.07143;
+    font-weight: 600;
+}
+
+.texto-about p {
+    font-size: 1em;
+    line-height: 20px;
+    padding-bottom: 20px;
+
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width:576px) {
 
