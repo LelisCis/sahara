@@ -144,6 +144,32 @@ main {
 
 }
 
+
+#sahara {
+    margin-top: 10px;
+}
+
+
+#sahara h2 {
+    font-size: 48px;
+    margin-top: 20px;
+    letter-spacing: -.005em;
+    line-height: 1.07143;
+    font-weight: 600;
+}
+
+#sahara p {
+    font-size: 18px;
+    line-height: 40px;
+    padding-bottom: 20px;
+
+}
+
+
+
+
+
+
 #exploreSahara h2 {
     font-size: 48px;
     letter-spacing: -.005em;
@@ -221,9 +247,9 @@ textarea {
     /* box-shadow: 0px 0px 0px 3px rgba(0, 0, 0, 0.2) !important; */
 }
 
-footer {
+/* footer {
 
-    /* margin-top: 4rem; */
+    /margin-top: 4rem; 
     display: flex;
     justify-content: space-around !important;
     font-weight: 100;
@@ -232,17 +258,17 @@ footer {
 
 footer h6 {
 font-size: 11px !important;
-}
+} */
 
-footer .container {
-    /* width: 940px !important; */
+/* footer .container {
+    width: 940px !important; 
     padding: 0 !important;
 }
 
 footer .logo {
     width: 50px;
     height: 50px;
-    /* margin-top: 50px; */
+    margin-top: 50px; 
 }
 
 footer h6:first-of-type {
@@ -263,13 +289,13 @@ footer img:hover {
 
 .quality {
     margin-top: 40px
-}
+} */
 
 
 
-.quality img {
+/* .quality img {
     margin-right: 0px !important
-}
+} */
 
 
 /* BOTÓN FLOTANTE */
